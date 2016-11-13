@@ -2,8 +2,7 @@
 //  PokeAnnotation.swift
 //  Pokemon
 //
-//  Created by Nick Walter on 8/16/16.
-//  Copyright © 2016 Zappy Code. All rights reserved.
+//  Created by Ashish Ranjan
 //
 
 import UIKit
