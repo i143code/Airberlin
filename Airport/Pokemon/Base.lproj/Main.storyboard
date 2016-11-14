@@ -117,7 +117,7 @@
                                 <state key="normal" image="map"/>
                                 <connections>
                                     <action selector="mapTapped:" destination="anS-4g-BDH" eventType="touchUpInside" id="EQ9-Wn-ber"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="lfl-QU-OZT"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wUD-Eg-tlS"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FbL-ou-XMs">
@@ -169,18 +169,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vvm-N1-rXj">
-                                <frame key="frameInset" height="44"/>
-                                <items>
-                                    <navigationItem title="Copouns" id="pLu-HI-Eq9">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="Y1f-XW-yUm">
-                                            <connections>
-                                                <segue destination="anS-4g-BDH" kind="show" id="zuF-Wc-yc5"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Barcode" translatesAutoresizingMaskIntoConstraints="NO" id="S8X-bp-T35">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="5vG-TI-Pf0"/>
@@ -192,6 +180,19 @@
                                     <constraint firstAttribute="height" constant="317" id="88C-ng-btI"/>
                                 </constraints>
                             </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7a-cO-Six">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Copouns" id="LOG-nG-Z40">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="hOe-Us-Dnw">
+                                            <connections>
+                                                <segue destination="anS-4g-BDH" kind="show" id="XQO-vF-cQn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -206,7 +207,6 @@
                             <constraint firstItem="Dpr-b0-VsM" firstAttribute="top" secondItem="S8X-bp-T35" secondAttribute="bottom" constant="8" id="enf-zs-fII"/>
                             <constraint firstItem="S8X-bp-T35" firstAttribute="leading" secondItem="ujy-Qp-67k" secondAttribute="leadingMargin" constant="63" id="h7S-Dz-nnT"/>
                             <constraint firstItem="Dpr-b0-VsM" firstAttribute="top" secondItem="S8X-bp-T35" secondAttribute="bottom" constant="8" id="hdC-vd-u5n"/>
-                            <constraint firstItem="MhJ-7z-DxJ" firstAttribute="top" secondItem="vvm-N1-rXj" secondAttribute="bottom" constant="79" id="j0e-6a-hJB"/>
                             <constraint firstItem="S8X-bp-T35" firstAttribute="leading" secondItem="ujy-Qp-67k" secondAttribute="leadingMargin" constant="63" id="tnY-V9-w1r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S8X-bp-T35" secondAttribute="trailing" constant="40" id="wUD-uk-uop"/>
                             <constraint firstItem="S8X-bp-T35" firstAttribute="leading" secondItem="ujy-Qp-67k" secondAttribute="leadingMargin" constant="63" id="yyy-od-oMJ"/>
@@ -273,7 +273,7 @@
         <image name="pokeball" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lfl-QU-OZT"/>
-        <segue reference="zuF-Wc-yc5"/>
+        <segue reference="wUD-Eg-tlS"/>
+        <segue reference="XQO-vF-cQn"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -129,7 +129,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
                     
                     let alertVC = UIAlertController(title: "Congrats", message: "You got Points. You are Awesome!!Keep going you have another 3 hours!!", preferredStyle: .alert)
                     
-                    let pokedexAction = UIAlertAction(title: "Pokedex", style: .default, handler: { (action) in
+                    let pokedexAction = UIAlertAction(title: "More", style: .default, handler: { (action) in
                         self.performSegue(withIdentifier: "pedexSegue", sender: nil)
                     })
                     alertVC.addAction(pokedexAction)

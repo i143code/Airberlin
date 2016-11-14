@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BCEB20D1DD8F22400ABE92E /* asnsald.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEB20C1DD8F22400ABE92E /* asnsald.png */; };
 		9C4E24A11A2DE7A300AA68C0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB56BE91A2DD1DE00D15A33 /* AvatarView.swift */; };
 		9CB56BC71A2DCFB400D15A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB56BC61A2DCFB400D15A33 /* AppDelegate.swift */; };
 		9CB56BC91A2DCFB400D15A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB56BC81A2DCFB400D15A33 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9BCEB20C1DD8F22400ABE92E /* asnsald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asnsald.png; sourceTree = "<group>"; };
 		9CB56BC11A2DCFB400D15A33 /* MultiplayerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplayerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB56BC51A2DCFB400D15A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CB56BC61A2DCFB400D15A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		9CB56BC41A2DCFB400D15A33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9BCEB20C1DD8F22400ABE92E /* asnsald.png */,
 				9CB56BC51A2DCFB400D15A33 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -163,6 +166,7 @@
 				9CB56BE81A2DCFFF00D15A33 /* Arial Rounded Bold.ttf in Resources */,
 				9CB56BD11A2DCFB400D15A33 /* LaunchScreen.xib in Resources */,
 				9CB56BCE1A2DCFB400D15A33 /* Images.xcassets in Resources */,
+				9BCEB20D1DD8F22400ABE92E /* asnsald.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

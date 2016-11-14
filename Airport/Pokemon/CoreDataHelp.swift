@@ -11,15 +11,15 @@ import CoreData
 func addAllPokemon() {
     
     createPokemon(name: "Coffee Points:10 ", imageName: "mew")
-    createPokemon(name: "Food", imageName: "meowth")
+    createPokemon(name: "Food Total:25", imageName: "meowth")
     createPokemon(name: "Enjoy First Class Lounge", imageName: "mankey")
-    createPokemon(name: "Airbelin Miles Points. Total: 30 ", imageName: "pidgey")
+    createPokemon(name: "Airbelin Miles Points. Total: 40 ", imageName: "pidgey")
     createPokemon(name: "Drinks & Food Copouns.Total: 30", imageName: "pikachu-2")
     createPokemon(name: "Airbelin In flight Points. Total: 20 Need: 100 More", imageName: "rattata")
-    createPokemon(name: "Airport Spa", imageName: "eevee")
+    createPokemon(name: "Airport Spa. Total:30", imageName: "eevee")
     createPokemon(name: "Drinks  Total: 30", imageName: "snorlax")
-    createPokemon(name: "Weedle", imageName: "weedle")
-    createPokemon(name: "Zubat", imageName: "zubat")
+    createPokemon(name: "Airbelin In flight Points Total:40", imageName: "weedle")
+    createPokemon(name: "Food with Drinks Total:30", imageName: "zubat")
     
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
 }
